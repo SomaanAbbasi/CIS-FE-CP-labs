@@ -1,0 +1,10 @@
+D = {'CP' : 'COMPUTER PROGRAMMING', 'FCE': 'FUNDAMENTALS OF COMP ENG',
+     'PST' : 'PAKISTAN STUDIES', 'BEE' : 'BASICS OF ELECTRICAL ENGINEERING'}
+
+D.update({'F.ENG': 'FUNCTIONAL ENGLISH'})
+
+print(D)
+
+print(D.get('Chinese'))
+
+print(D.get('CP'))
